@@ -13,7 +13,7 @@ body {
     background-color: #00C4CF;
 }
 
-nav {
+header {
     position: relative;
     z-index: 100;
     width: 90%;
@@ -62,7 +62,7 @@ nav a:hover {
 #billboard img {
     position: absolute;
     z-index: -1;
-    /*transform: scaleX(-1);*/
+    transform: scaleX(-1);
 }
 
 #section1 {
@@ -77,15 +77,19 @@ nav a:hover {
     justify-content: center;
 }
 
-#section1 p {
-    color: white;
+#section1 figure {
     width: 300px;
-    vertical-align: top;
-    margin: 125px 5% 125px 5%;
+    margin: 125px auto;
 }
 
-#section1 p img {
-    padding-bottom: 25px;
+#section1 img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#section1 figcaption {
+    color: white;
+    vertical-align: top;
 }
 
 #section2 {
@@ -101,11 +105,11 @@ nav a:hover {
     position: absolute;
     z-index: 99;
     top: 1em;
-    right: 2em;
+    right: 2.5em;
     width: 500px;
     font-size: 5em;
     color: white;
-    text-align: right;
+    text-align: left;
 }
 
 footer {
@@ -161,15 +165,27 @@ footer a:hover {
     justify-content: center;
 }
 
-#hobbies p {
+#hobbies figure {
+    width: 400px;
+    margin: 150px auto 0 auto;
+}
+
+#hobbies figcaption {
     color: white;
-    width: 300px;
-    vertical-align: top;
-    margin: 150px 5% 150px 5%;  
+    vertical-align: top; 
 }
 
 #hobbies img {
-    padding-bottom: 25px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#hobbies p {
+    font-size: 2em;
+}
+
+#hobbies a:hover {
+    color: white;
 }
 
 #hobbyBody {
@@ -200,8 +216,8 @@ footer a:hover {
         height: 100vh;
     }
 
-    #section1 p {
-        margin: 40px 5% 40px 5%;
+    #section1 figure {
+        margin: 40px auto;
     }
 
     #section2 img {
@@ -212,7 +228,7 @@ footer a:hover {
     #section2 h1 {
         width: 400px;
         font-size: 4em;
-        right: 1.5em;
+        right: 2.5em;
         top: 1.5em;
     }
 
@@ -232,8 +248,8 @@ footer a:hover {
         left: -50px;
     }
 
-    #section1 p {
-        margin: 40px 5% 40px 5%;
+    #section1 figure {
+        margin: 40px auto;
     }
 
     #section2 img {
@@ -244,12 +260,12 @@ footer a:hover {
     #section2 h1 {
         width: 400px;
         font-size: 4em;
-        right: 1.5em;
+        right: 2em;
         top: 1.5em;
     }
 
-    #hobbies p {
-        margin: 85px 5% 15px 5%;  
+    #hobbies figure {
+        margin: 85px auto 15px auto;  
     }
 }
 
@@ -266,8 +282,8 @@ footer a:hover {
         height: 75vh;
     }
 
-    #section1 p {
-        margin: 40px 5% 40px 5%;
+    #section1 figure {
+        margin: 40px auto;
     }
 
     #section2 img {
@@ -278,13 +294,13 @@ footer a:hover {
 
     #section2 h1 {
         width: 350px;
-        font-size: 4em;
-        right: 1em;
+        font-size: 3.5em;
+        right: 2em;
         top: 2em;
     }
 
-    #hobbies p {
-        margin: 85px 5% 15px 5%;  
+    #hobbies figure {
+        margin: 85px auto 15px auto;  
     }
 }
 
@@ -298,12 +314,12 @@ footer a:hover {
 
     #billboard img {
         top: -25px;
-        left: -100px;
+        left: -200px;
         height: 75vh;
     }
 
-    #section1 p {
-        margin: 40px 5% 40px 5%;
+    #section1 figure {
+        margin: 40px auto;
     }
 
     #section2 img {
@@ -315,11 +331,11 @@ footer a:hover {
     #section2 h1 {
         width: 300px;
         font-size: 3em;
-        right: 1em;
-        top: 2.5em;
+        right: 2em;
+        top: 4.5em;
     }
 
-    #hobbies p {
-        margin: 85px 5% 15px 5%;  
+    #hobbies figure {
+        margin: 85px auto 15px auto;  
     }
 }
