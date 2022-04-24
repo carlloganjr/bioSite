@@ -22,15 +22,21 @@ header {
     background-color: #004B4F;
 }
 
-nav a {
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav a, #laura {
     color: white;
     text-decoration: none;
-    float: right;
+    color: white;
+    text-decoration: none;
     padding: 10px 25px;
     font-weight: 700;
 }
 
-nav a:hover {
+nav a:hover, #laura:hover {
     color: #00C4CF;
 }
 
@@ -337,5 +343,15 @@ footer a:hover {
 
     #hobbies figure {
         margin: 85px auto 15px auto;  
+    }
+
+    nav a {
+        font-size: .75em;
+        padding: 10px;
+    }
+
+    #laura {
+        font-size: 1em;
+        margin-top: 7px;
     }
 }
