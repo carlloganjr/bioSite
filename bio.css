@@ -27,7 +27,7 @@ nav {
     margin-top: 10px;
 }
 
-nav a, #laura {
+#laura, nav a {
     color: white;
     text-decoration: none;
     color: white;
@@ -36,7 +36,7 @@ nav a, #laura {
     font-weight: 700;
 }
 
-nav a:hover, #laura:hover {
+#laura:hover, nav a:hover {
     color: #00C4CF;
 }
 
