@@ -141,7 +141,7 @@ footer a:hover {
 
 #about {
     width: 100vw;
-    height: 75vh;
+    height: 95vh;
     background-color: white;
     position: absolute;
     z-index: 10;
@@ -161,7 +161,7 @@ footer a:hover {
 
 #hobbies {
     width: 100vw;
-    min-height: 85vh;
+    min-height: 90vh;
     background-color: #00ACB5;
     position: absolute;
     z-index: 10;
